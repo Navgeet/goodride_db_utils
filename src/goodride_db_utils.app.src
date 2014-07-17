@@ -1,0 +1,14 @@
+{application, goodride_db_utils,
+ [
+  {description, "An Erlang goodride_db_utils library"},
+  {vsn, "1"},
+  {modules, [
+             goodride_db_utils
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
